@@ -1,13 +1,20 @@
 body {
-    min-height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: rgb(71, 71, 71);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: #CD212A;
 }
 
 #nav {
@@ -17,6 +24,8 @@ nav {
 
 a {
     text-decoration: none;
+    color: #F4F9FF;
+    
 }
 
 .link {
@@ -30,4 +39,30 @@ a {
 #title {
     padding-left: 10px;
     padding-right: 10px;
+    color: #F4F9FF;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+.left {
+    background-color: #008C45;
+    flex-grow: 2;
+}
+
+.center {
+    background-color: #F4F9FF;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+}
+
+.right {
+    background-color: #CD212A;
+    flex-grow: 2;
 }
