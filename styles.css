@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
