@@ -66,3 +66,16 @@ footer {
     background-color: #CD212A;
     flex-grow: 2;
 }
+
+.container {
+    display: flex;
+    margin: 15px;
+    color: #cfcfcf;
+    font-size: 20px;
+}
+
+img {
+    border: solid;
+    border-color: black;
+    border-radius: 12px;
+}
