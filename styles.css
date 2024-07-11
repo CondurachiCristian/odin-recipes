@@ -69,7 +69,8 @@ footer {
 
 .container {
     display: flex;
-    margin: 15px;
+    justify-content: space-between;
+    margin: 25px;
     color: #cfcfcf;
     font-size: 20px;
 }
