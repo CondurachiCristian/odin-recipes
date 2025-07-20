@@ -1,0 +1,19 @@
+body {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+a {
+    padding: 8px;
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: #4d4df5;
+}
